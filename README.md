@@ -120,3 +120,5 @@ Alice is built on a foundational commitment to privacy — not as a feature, but
 ## License
 
 MIT License — see [LICENSE](./LICENSE) for details.
+
+<!-- mcp-name: io.github.aliceappai/mcp-server-alice -->
