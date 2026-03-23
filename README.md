@@ -19,36 +19,72 @@ The Alice MCP Server turns your secure voice archive into a queryable knowledge 
 ## Requirements
 
 - An Alice account — [sign up free at aliceapp.ai](https://aliceapp.ai/signup) (includes 60 free minutes)
-- An MCP-compatible AI client (Claude Desktop, Cursor, Windsurf, etc.)
-- Your Alice API key (found in your [Alice Dashboard](https://aliceapp.ai/dashboard) under Settings → API)
+- An MCP-compatible AI client (Claude Desktop, Claude.ai, ChatGPT, Grok, etc.)
+- Your Alice connection URL (found in your [Alice Dashboard](https://aliceapp.ai/mcp) under AI → MCP Server)
 
 ---
 
 ## Setup
 
+### Get Your Connection URL
+
+1. Go to [aliceapp.ai/mcp](https://aliceapp.ai/mcp)
+2. Click **Generate connection URL**
+3. Copy the URL — you'll paste it into your AI client below
+
 ### Claude Desktop
 
-Add the following to your `claude_desktop_config.json`:
-```json
-{
-  "mcpServers": {
-    "alice": {
-      "type": "url",
-      "url": "https://aliceapp.ai/mcp/YOUR_API_KEY_HERE"
-    }
-  }
-}
-```
+1. Open Claude Desktop → Settings (⌘ + ,)
+2. Go to **Connectors**
+3. Click **Add custom connector**
+4. Name: `Alice`
+5. URL: Paste the URL from above
+6. Click **Save**
 
-The config file is located at:
-- **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
-- **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+Claude will now know to ask Alice when you have questions about your recordings.
 
-After saving, restart Claude Desktop. Alice will appear in your connected tools.
+### Claude.ai Web
+
+1. Open Claude.ai Settings
+2. Go to **Connectors**
+3. Click **Add custom connector**
+4. Name: `Alice`
+5. URL: Paste the URL from above
+6. Click **Save**
+
+Claude will now know to ask Alice when you have questions about your recordings.
+
+### ChatGPT
+
+1. Open ChatGPT settings
+2. Navigate to **Integrations** or **MCP Servers**
+3. Click **Add Server** or **Connect**
+4. Name: `Alice`
+5. URL: Paste the copied URL
+
+ChatGPT will now know to ask Alice when you have questions about your recordings.
+
+### Grok
+
+1. Open [grok.com](https://grok.com) or your Grok-enabled application
+2. Go to **Settings → Integrations** or **MCP Tools**
+3. Click **Add Remote MCP Server**
+4. Name: `Alice`
+5. Server URL: Paste the URL from above
+6. Click **Save**
+
+Grok will now know to ask Alice when you have questions about your recordings.
+
+For more details, see the [Grok Remote MCP Tools Documentation](https://docs.x.ai/docs/guides/tools/remote-mcp-tools).
 
 ### Other MCP Clients (Cursor, Windsurf, etc.)
 
-Use the same endpoint URL. Refer to your client's documentation for where to add MCP server connections.
+Use the same connection URL. Refer to your client's documentation for where to add MCP server connections.
+
+### Tips
+
+- Set permissions to **Always Allow** so your AI can reach out to Alice as needed
+- Create a project named **Alice** to keep chats organized and set specific instructions
 
 ---
 
