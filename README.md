@@ -123,7 +123,7 @@ Once Alice is connected to your AI client, try:
 
 Alice is built on a foundational commitment to privacy — not as a feature, but as a moral baseline.
 
-Privacy Policy: [https://aliceapp.ai/privacy](https://aliceapp.ai/privacy)
+Privacy Policy: [https://aliceapp.ai/privacy-policy](https://aliceapp.ai/privacy-policy)
 
 - No data mining, no third-party trackers, no ad networks
 - All data encrypted in transit and at rest

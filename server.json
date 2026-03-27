@@ -6,9 +6,9 @@
     "url": "https://github.com/aliceappai/mcp-server-alice",
     "source": "github"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "privacy_policies": [
-    "https://aliceapp.ai/privacy"
+    "https://aliceapp.ai/privacy-policy"
   ],
   "tools": [
     {
