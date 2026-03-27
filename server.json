@@ -7,6 +7,27 @@
     "source": "github"
   },
   "version": "1.0.0",
+  "privacy_policies": [
+    "https://aliceapp.ai/privacy"
+  ],
+  "tools": [
+    {
+      "name": "list_recordings",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_transcript",
+      "readOnlyHint": true
+    },
+    {
+      "name": "search_recordings",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_recording_metadata",
+      "readOnlyHint": true
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",

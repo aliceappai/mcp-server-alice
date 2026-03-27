@@ -20,7 +20,7 @@ The Alice MCP Server turns your secure voice archive into a queryable knowledge 
 
 - An Alice account — [sign up free at aliceapp.ai](https://aliceapp.ai/signup) (includes 60 free minutes)
 - An MCP-compatible AI client (Claude Desktop, Claude.ai, ChatGPT, Grok, etc.)
-- Your Alice connection URL (found in your [Alice Dashboard](https://aliceapp.ai/mcp) under AI → MCP Server)
+- Your Alice connection URL (generated in your [Alice Dashboard](https://aliceapp.ai/mcp) under AI → MCP Server)
 
 ---
 
@@ -30,7 +30,9 @@ The Alice MCP Server turns your secure voice archive into a queryable knowledge 
 
 1. Go to [aliceapp.ai/mcp](https://aliceapp.ai/mcp)
 2. Click **Generate connection URL**
-3. Copy the URL — you'll paste it into your AI client below
+3. Copy the generated URL — you'll paste it into your AI client below
+
+This generated URL contains your unique Alice API key in the path, so no additional authentication setup is required in your client.
 
 ### Claude Desktop
 
@@ -120,6 +122,8 @@ Once Alice is connected to your AI client, try:
 ## Privacy & Security
 
 Alice is built on a foundational commitment to privacy — not as a feature, but as a moral baseline.
+
+Privacy Policy: [https://aliceapp.ai/privacy](https://aliceapp.ai/privacy)
 
 - No data mining, no third-party trackers, no ad networks
 - All data encrypted in transit and at rest

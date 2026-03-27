@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+- Listing compliance metadata in `server.json`:
+  - `tools` annotations with `readOnlyHint: true` for all exposed tools
+  - `privacy_policies` including `https://aliceapp.ai/privacy`
+
+### Changed
+- Clarified README setup language to explain that the generated connection URL already includes the user's API key.
+- Added a direct privacy policy link in the README "Privacy & Security" section.
+
 ## [v1.0.0] - 2026-03-23
 
 ### Added
