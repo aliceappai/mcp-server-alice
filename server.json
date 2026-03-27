@@ -6,7 +6,28 @@
     "url": "https://github.com/aliceappai/mcp-server-alice",
     "source": "github"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "privacy_policies": [
+    "https://aliceapp.ai/privacy-policy"
+  ],
+  "tools": [
+    {
+      "name": "list_recordings",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_transcript",
+      "readOnlyHint": true
+    },
+    {
+      "name": "search_recordings",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_recording_metadata",
+      "readOnlyHint": true
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
