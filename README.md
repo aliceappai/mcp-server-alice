@@ -94,12 +94,25 @@ Use the same connection URL. Refer to your client's documentation for where to a
 
 Once connected, your AI client has access to the following tools:
 
+### MCP v2 tools (recommended)
+
 | Tool | Description |
 |------|-------------|
-| `list_recordings` | List recordings with optional filters (date range, title, language) |
-| `get_transcript` | Retrieve the full transcript for a specific recording |
-| `search_recordings` | Natural-language search across recordings, transcripts, and metadata |
-| `get_recording_metadata` | Get metadata for a recording (duration, speakers, language, date, location) |
+| `list_recordings_v2` | List recordings with optional filters. |
+| `search_recordings_v2` | Search recordings, transcripts, and metadata with natural language. |
+| `get_recording_v2` | Get recording details for a specific recording ID. |
+| `get_transcript_v2` | Retrieve a transcript for a specific recording ID. |
+| `get_collection_stats_v2` | Get collection-level recording and transcript statistics. |
+| `get_schemas_v2` | Get JSON schemas for MCP v2 tool inputs and outputs. |
+
+### Legacy tools (backward compatibility)
+
+| Tool | Description |
+|------|-------------|
+| `search_recordings_tool` | Legacy search tool for backward compatibility. |
+| `get_transcript_tool` | Legacy transcript retrieval tool for backward compatibility. |
+| `get_recording_metadata_tool` | Legacy recording metadata tool for backward compatibility. |
+| `list_recent_recordings_tool` | Legacy recent recordings listing tool for backward compatibility. |
 
 ---
 
