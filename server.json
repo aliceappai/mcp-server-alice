@@ -6,25 +6,49 @@
     "url": "https://github.com/aliceappai/mcp-server-alice",
     "source": "github"
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "privacy_policies": [
     "https://aliceapp.ai/privacy-policy"
   ],
   "tools": [
     {
-      "name": "list_recordings",
+      "name": "list_recordings_v2",
       "readOnlyHint": true
     },
     {
-      "name": "get_transcript",
+      "name": "search_recordings_v2",
       "readOnlyHint": true
     },
     {
-      "name": "search_recordings",
+      "name": "get_recording_v2",
       "readOnlyHint": true
     },
     {
-      "name": "get_recording_metadata",
+      "name": "get_transcript_v2",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_collection_stats_v2",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_schemas_v2",
+      "readOnlyHint": true
+    },
+    {
+      "name": "search_recordings_tool",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_transcript_tool",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_recording_metadata_tool",
+      "readOnlyHint": true
+    },
+    {
+      "name": "list_recent_recordings_tool",
       "readOnlyHint": true
     }
   ],
